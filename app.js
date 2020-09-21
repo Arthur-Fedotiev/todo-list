@@ -16,6 +16,7 @@ mongoose.connect(
   "mongodb+srv://admin-arthur:711067a711067a@cluster0.iwbim.mongodb.net/todolistDB",
   {
     useNewUrlParser: true,
+    useUnifiedTopology: true,
   }
 );
 
